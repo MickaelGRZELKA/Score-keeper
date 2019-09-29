@@ -9,13 +9,13 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 8rem;
+    font-size: 10rem;
     margin-top: 1rem;
     text-shadow: 2px 2px silver;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
 }
-main p{
+p{
     text-align: center;
     font-size: 5rem;
     margin-top: 2%;
@@ -30,8 +30,8 @@ main p{
     text-shadow: 2px 2px silver;
 }
 h2{
-    text-align: center;
     font-size: 8rem;
+    text-align: center;
     margin-top: 1rem;
     text-shadow: 2px 2px silver;
     font-weight: bold;
@@ -50,4 +50,32 @@ h2{
     font-weight: bold;
     font-family: 'Squada One', cursive;
     color: orange;
+}
+.button{
+    text-align: center;
+    margin-top: 2rem;
+}
+.button .p1{
+    color: white;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    width: 10vw; 
+    height: 2rem;
+}
+.button .reset{
+    color: white;
+    background: grey;
+    border: 2px solid grey;
+    border-radius: 2rem;
+    width: 5vw;
+    height: 2rem;
+}
+.button .p2{
+    color: white;
+    background: orange;
+    border: 2px solid orange;
+    border-radius: 2rem;
+    width: 10vw;
+    height: 2rem; 
 }
