@@ -46,3 +46,7 @@ function reset(){
     p2Result.classList.remove("winner");
     gameOver = false;
 }
+
+function restart(){
+    reset();
+}
