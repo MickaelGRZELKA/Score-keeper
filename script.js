@@ -24,3 +24,14 @@ function addScoreAfterP1Win(){
     p1Result.textContent = p1Score;
 }
 player1.addEventListener("click", addScoreAfterP1Win);
+
+function addScoreAfterP2Win(){
+    if(!gameOver){
+        p2Score++;
+        if (p2Score === scoreToWin){
+            p2Result.classList.add("winner");
+            gameOver = true;
+        }
+    }
+    p2Result.textContent = p2Score;
+}
