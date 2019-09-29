@@ -22,7 +22,7 @@ p{
     font-family: 'Squada One', cursive;
     text-shadow: 2px 2px silver;
 }
-.green{
+.red{
     color:rgb(210, 32, 0);
     text-shadow: 2px 2px black;
     font-weight: bold;
@@ -78,4 +78,7 @@ h2{
     border-radius: 2rem;
     width: 10vw;
     height: 2rem; 
+}
+.winner{
+    color:rgb(210, 32, 0);
 }
