@@ -50,3 +50,5 @@ function reset(){
 function restart(){
     reset();
 }
+
+resetButton.addEventListener("click", restart);
