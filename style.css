@@ -1,0 +1,9 @@
+*{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./images/gazon.jpg) no-repeat;
+    background-size: cover;
+}
