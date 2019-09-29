@@ -9,7 +9,6 @@ let p1Score = 0;
 let p2Score = 0;
 let gameOver = false;
 let scoreToWin = 5;
-let scoreToWinResult = document.querySelector("p span");
 
 
 function addScoreAfterP1Win(){
