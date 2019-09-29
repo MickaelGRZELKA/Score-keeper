@@ -7,3 +7,25 @@ body{
     background: url(./images/gazon.jpg) no-repeat;
     background-size: cover;
 }
+h1{
+    text-align: center;
+    font-size: 8rem;
+    margin-top: 1rem;
+    text-shadow: 2px 2px silver;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main p{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 2%;
+    font-family: 'Squada One', cursive;
+    text-shadow: 2px 2px silver;
+}
+.green{
+    color:rgb(210, 32, 0);
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 2px 2px silver;
+}
