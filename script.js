@@ -9,6 +9,7 @@ let p1Score = 0;
 let p2Score = 0;
 let gameOver = false;
 let scoreToWin = 5;
+let scoreToWinResult
 
 
 function addScoreAfterP1Win(){
@@ -36,6 +37,12 @@ function addScoreAfterP2Win(){
 }
 player2.addEventListener("click", addScoreAfterP2Win);
 
+function restart(){
+    reset();
+}
+
+resetButton.addEventListener("click", restart);
+
 function reset(){
     p1Score = 0;
     p2Score = 0;
@@ -46,8 +53,3 @@ function reset(){
     gameOver = false;
 }
 
-function restart(){
-    reset();
-}
-
-resetButton.addEventListener("click", restart);
