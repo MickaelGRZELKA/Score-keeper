@@ -23,3 +23,4 @@ function addScoreAfterP1Win(){
     }
     p1Result.textContent = p1Score;
 }
+player1.addEventListener("click", addScoreAfterP1Win);
