@@ -35,3 +35,14 @@ function addScoreAfterP2Win(){
     }
     p2Result.textContent = p2Score;
 }
+player2.addEventListener("click", addScoreAfterP2Win);
+
+function reset(){
+    p1Score = 0;
+    p2Score = 0;
+    p1Result.textContent = 0;
+    p2Result.textContent = 0;
+    p1Result.classList.remove("winner");
+    p2Result.classList.remove("winner");
+    gameOver = false;
+}
